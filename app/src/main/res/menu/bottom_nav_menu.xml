@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home"/>
+
+    <item android:title="profile"
+        android:icon="@drawable/baseline_person_24"
+        android:id="@+id/profile"/>
+
+    <item android:title="setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/setting"/>
+
+    <item android:title="phone"
+        android:icon="@drawable/baseline_phone_24"
+        android:id="@+id/phone"/>
+
+    <item android:title=" task"
+        android:icon="@drawable/round_task_24"
+        android:id="@+id/task"/>
+</menu>

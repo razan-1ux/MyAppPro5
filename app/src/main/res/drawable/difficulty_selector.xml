@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- حالة الضغط (لما تضغط عليه) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="22dp"/>
+            <solid android:color="#9A8CE5"/> <!-- لون غامق -->
+        </shape>
+    </item>
+
+    <!-- حالة الاختيار (لما يكون الزر مختار) -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="22dp"/>
+            <solid android:color="#9A8CE5"/> <!-- نفس اللون الغامق -->
+        </shape>
+    </item>
+
+    <!-- الحالة العادية -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="22dp"/>
+            <solid android:color="#5D28B9"/> <!-- لون فاتح -->
+        </shape>
+    </item>
+
+    <!-- res/drawable/button_selector.xml -->
+
+
+</selector>
