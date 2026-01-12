@@ -16,10 +16,13 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.RazanPro5.fragment.TaskFragment;
+import com.example.RazanPro5.model.Task;
+import com.example.RazanPro5.model.TaskData;
 import com.google.android.material.button.MaterialButton;
 
 import org.w3c.dom.Text;
 
+import java.text.BreakIterator;
 import java.util.Calendar;
 
 public class addTaskActivity2 extends AppCompatActivity {
@@ -50,10 +53,6 @@ public class addTaskActivity2 extends AppCompatActivity {
         saveToTaskFragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
-                finish();
 
 
             }
